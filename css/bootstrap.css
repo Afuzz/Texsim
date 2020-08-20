@@ -7350,13 +7350,31 @@ button.close {
 	right:40px;
 	background-color:#25d366;
 	color:#FFF;
-	border-radius:50px;
+	border-radius:50%;
 	text-align:center;
-  font-size:30px;
+  font-size:42px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:0px;
 }
+
+
+
+/* .fa {
+	
+	
+	width: 30px; */
+
+	.float:hover::before {
+		opacity: 0.7;
+	}
+  
+	.float:hover::after {
+	  opacity: 0.7;
+  }
+  

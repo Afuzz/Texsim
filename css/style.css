@@ -9549,7 +9549,7 @@ html.rd-navbar-fixed-linked .page {
 	margin-top: 30px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 100%) {
 	.swiper-slider-modern .swiper-slide {
 		background-position: 30% 50%;
 	}
